@@ -52,3 +52,7 @@ body  {
    background-image: -ms-linear-gradient(top, #ff0000 0%, #ffffff 100%);
    color: #ff00ff;
    }
+   .playButton {
+  text-align: center;
+    margin-top: 25%;
+}

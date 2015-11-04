@@ -1666,7 +1666,7 @@
 	}
 
 	#fix {
-		padding-top: 
+		padding-top:0 
 	}
 
 /* Sections/Article */
@@ -1701,6 +1701,10 @@
 		header.major {
 			text-align: center;
 		}
+		header.center {
+    text-align: center;
+    margin-top: 3em;
+}
 
 /* Image */
 

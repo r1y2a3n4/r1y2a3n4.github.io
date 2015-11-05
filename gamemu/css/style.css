@@ -60,3 +60,52 @@
    .marquee {
     margin-top: -5%;
    }
+
+.title {
+    background: red;
+    width: 100%;
+    padding: 10px;
+      display:inline-block;
+}
+.top {
+    display: inline-block;
+}
+.menu {background: blue;
+    width: 20%;
+    padding: 5px;}
+.sidebar {
+      width: 25%;
+    background: orange;
+    padding: 20px;
+}
+
+.fixtures {
+    background: blue;
+    color: white;
+    padding: 5px;
+}
+.news {background: red;
+    color: white;
+    padding: 5px;
+
+  }
+.finance {background: green;
+    color: white;
+    padding: 5px;
+
+}
+.next {background: purple;
+    color: white;
+    padding: 5px;}
+.shortlist {background: black;
+    color: white;
+    padding: 5px;}
+.table {background: white;
+    color: black;
+    padding: 5px;}
+.stats {background: blue;
+    color: white;
+    padding: 5px;}
+.main {width: 75%;
+    background: orange;
+    padding: 20px;}

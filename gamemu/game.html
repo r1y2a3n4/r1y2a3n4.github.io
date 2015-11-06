@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Manchester United Management</title>
+  <link rel="stylesheet" href="css/style.css"></link>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="game.js"></script>
+    </head>
+  <div class="title">
+      <button class="top">Back</button>
+        <h1 class="top"> Manchester United</h1>
+      <button class="top">Continue</button>
+  </div>
+  <div class="menu">
+      <button>Mail</button>
+      <button>Team</button>
+      <button id="showReserve">Show Reserve</button>
+      <button id="show18">Show Eighteen</button>
+      <button>Manager</button>
+      <button>Board</button>
+      <button>Tranfers</button>
+      <button>Settings</button>
+  </div>
+
+  <div class="sidebar">
+    <div class="fixtures">
+      <h1>Fixture</h1>
+      <table>
+      </table>
+    </div>
+    <div class="news">
+      <h1>News</h1>
+      <table>
+      </table>
+    </div>
+    <div class="finance">
+      <h1>Finance</h1>
+      <table>
+      </table>
+    </div>
+    <div class="next">
+      <h1>Next Match</h1>
+      <table>
+      </table>
+    </div>
+    <div class="shortlist">
+      <h1>Tranfer Shortlist</h1>
+      <table>
+      </table>
+    </div>
+    <div class="table">
+      <h1>League Table</h1>
+      <table>
+      </table>
+    </div>
+    <div class="stats">
+      <h1>Stats</h1>
+      <table>
+      </table>
+    </div>
+  </div>
+  <div class="info">
+  <div class="main">
+    <div class="players">
+    <div class="first">
+    <div class="playerinfo hidden">
+  Name: Name here
+  Date of birth: Date here
+  Nationality: Nationality here
+  Number of international caps: #
+  No of appearances for Man Utd: #
+  </div>
+    <div class="row1">
+      <div class="player" id="ddg">1. David de Gea
+      </div>
+      <div class="player" id="jones">4. P.Jones
+      </div>
+      <div class="player" id="rojo">5. M.Rojo
+      </div>
+      <div class="player" id="depay">7. M.Depay
+      </div>
+    </div>
+    <div class="row2">
+      <div class="player" id="mata">8. J.Mata
+      </div>
+      <div  class="player" id="martial">9. A.Martial
+      </div>
+      <div class="player" id="wazza">10. W.Rooney
+      </div>
+      <div class="player" id="januzaj">11. A.Januzaj
+      </div>
+    </div>
+    <div class="row3">
+      <div class="player" id="small">12. C.Smalling
+      </div>
+      <div class="player" id="carra">16. M.Carrick
+      </div>
+      <div class="player" id="blind">17. D.Blind
+      </div>
+      <div class="player" id="young">18. A.Young
+      </div>
+      </div>
+    <div class="row4">
+     <div class="player" id="wilson">19. J.Wilson
+      </div>
+      <div class="player" id="romero">20. S.Romero
+      </div>
+      <div class="player" id="ander">21. A.Herrera
+      </div>
+      <div class="player" id="shaw">23. L.Shaw
+      </div> 
+    </div>
+    <div class="row5">
+    <div class="player" id="valencia">25. A.Valencia
+      </div>
+      <div class="player" id="fella">27. M.Fellaini
+      </div>
+      <div class="player" id="schder">28. M.Schneiderlin
+      </div>
+      <div class="player" id="schwein">31. B.Schweinsteiger
+      </div>  
+     </div>
+    <div class="row6">
+      <div class="player" id="paddy">33. P.McNair
+      </div>
+      <div class="player" id="lingard">35. J.Lingard
+      </div>
+      <div class="player" id="darmian">36. M.Darmian
+      </div>
+      <div class="player" id="tuanzebe">38. A.Tuanzebe
+      </div>
+    </div>
+    <div class="row7">
+    <div class="player" id="tyler">42. T.Blackett
+      </div>
+      <div class="player" id="peirera">44. A.Pereira
+      </div>
+      <div class="player" id="johnstone">50. S.Johnstone
+      </div><div class="player" id="nick">0. N.Powell
+      </div>
+     </div>
+     <div class="row8"> 
+      <div class="player" id="keane">0. M.Keane
+      </div>
+      <div class="player" id="varela">0. G.Varela
+      </div>
+      <div class="player" id="valdes">0. V.Valdes
+      </div>
+       </div>
+    </div>
+    <div class="reserve">
+    <h2 class="reserveh2">Reserve</h2>
+     <div class="row9">
+      <div class="player" id="castro">J.Castro Pereira
+      </div>
+      <div class="player" id="hara">K.O"Hara
+      </div>
+      <div class="player" id="henderson">D.Henderson
+      </div>
+      <div class="player" id="dorrington">G.Dorrington
+      </div>
+     </div>
+     <div class="row10">
+      <div class="player" id="jackson">C.Borthwick-Jackson
+      </div>
+      <div class="player" id="love">D.Love
+      </div>
+      <div class="player" id="grimshaw">L.Grimshaw
+      </div>
+      <div class="player" id="riley">J.Riley
+      </div>
+    </div>
+    <div class="row11">
+      <div class="player" id="mctomiway">S.McTomiway
+      </div>
+      <div class="player" id="pearson">B.Pearson
+      </div>
+      <div class="player" id="oliver">O.Rathbone
+      </div>
+      <div class="player" id="weir">J.Weir
+      </div>
+     </div>
+     <div class="row10">     
+      <div class="player" id="harrop">J.Harrop
+      </div>
+      <div class="player" id="goss">S.Goss
+      </div>
+      <div class="player" id="redmond">D.Redmond
+      </div>
+      <div class="player" id="willock">M.Willock
+      </div>
+     </div>
+     <div class="row10"> 
+      <div class="player" id="rothwell">J.Rothwell
+      </div>    
+      <div class="player" id="doughty">J.Doughty
+      </div>
+      <div class="player" id="fletcher">A.Fletcher
+      </div>
+    </div>
+    </div>
+    <div class="eighteen">
+     <h2 class="reserveh2">Academy players</h2>
+     <div class="row10"> 
+      <div class="player" id="ilias">I.Moutha-Sebtaoui
+      </div>
+      <div class="player" id="bryne">O.Bryne
+      </div>
+      <div class="player" id="williams">R.S.Williams
+      </div>
+      <div class="player" id="warren">T.Warren
+      </div>
+     </div>
+     <div class="row10">       
+      <div class="player" id="tuanzebe">A. Tuanzebe
+      </div>
+      <div class="player" id="poole">R.Poole
+      </div>
+      <div class="player" id="reid">T.Reid
+      </div>
+      <div class="player" id="dunne">J.Dunne
+      </div>
+     </div>
+     <div class="row10"> 
+      <div class="player" id="scott">C.Scott
+      </div>
+      <div class="player" id="mensah">T.Fosu-Mensah
+      </div>
+      <div class="player" id="whelan">C.Whelan
+      </div>
+      <div class="player" id="gribbin">C.Gribbin
+     </div>
+     <div class="row10">
+      </div>
+      <div class="player" id="hamilton">E.Hamilton
+      </div>
+      <div class="player" id="makela">F.Makela
+      </div>
+      <div class="player" id="boonen">I.Boonen
+      </div>
+      <div class="player" id="kenhinde">T.Kehinde
+      </div>
+     </div>
+     <div class="row10">
+      <div class="player" id="kenyon">J.Kenyon
+      </div>
+      <div class="player" id="zach">Z.Dearnley
+      </div>
+      <div class="player" id="johnson">T.Johnson
+      </div>
+      <div class="player" id="roberts">K.Diedrick-Roberts
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  </div>
+
+</body>
+</html>

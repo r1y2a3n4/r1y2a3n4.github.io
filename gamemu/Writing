@@ -1,0 +1,105 @@
+$("#martial").click(function() {
+  	$(".playerinfo").html('Name: Anthony Martial<br>Date of birth: 05/12/1995<br>Nationality: France<br> Number of international caps: 4<br> 
+  		No of appearances for Man Utd: 13');
+  });
+  $("#wazza").click(function() {
+  	$(".playerinfo").html('Name: Wayne Rooney<br>Date of birth: 24/10/1985<br>Nationality: England<br> Number of international caps: 107<br> 
+  		No of appearances for Man Utd: 496');
+  });
+  $("#januzaj").click(function() {
+  	$(".playerinfo").html('Name: Adnan Januzaj(Out on loan)<br>Date of birth: 05/02/1995<br>Nationality: Belgium<br> Number of international caps: 5<br> 
+  		No of appearances for Man Utd: 60');
+  });
+  $("#small").click(function() {
+  	$(".playerinfo").html('Name: Chris Smalling<br>Date of birth: 22/11/1989<br>Nationality: England<br> Number of international caps: 20<br> 
+  		No of appearances for Man Utd: 171');
+  });
+  $("#carra").click(function() {
+  	$(".playerinfo").html('Name: Michael Carrick<br>Date of birth: 28/7/1981<br>Nationality: England<br> Number of international caps: 33<br> 
+  		No of appearances for Man Utd: 392');
+  });
+  $("#blind").click(function() {
+  	$(".playerinfo").html('Name: Daley Blind<br>Date of birth: 07/11/1990<br>Nationality: Holland<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#young").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#wilson").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#romero").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+
+  $("#ander").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#shaw").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#valencia").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#fella").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#schder").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#schwein").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#paddy").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#lingard").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#darmian").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#tuanzebe").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#tyler").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#peirera").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#johnstone").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#nick").click(function() {
+  	$(".playerinfo").html('Name: Nick Powell<br>Date of birth: 07/11/1990<br>Nationality: England<br> Number of international caps: 0<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#keane").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#varela").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
+  $("#valdes").click(function() {
+  	$(".playerinfo").html('Name: David de Gea<br>Date of birth: 07/11/1990<br>Nationality: Spain<br> Number of international caps: 7<br> 
+  		No of appearances for Man Utd: 185');
+  });
